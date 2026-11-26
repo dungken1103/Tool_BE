@@ -1,0 +1,26 @@
+# Thư viện, kết quả build
+node_modules/
+dist/
+build/
+coverage/
+*.tsbuildinfo
+
+# Biến môi trường (chứa khóa, mật khẩu); chỉ giữ .env.example
+.env
+.env.*
+!.env.example
+
+# Dữ liệu chạy thật: danh mục / sổ của từng công ty
+data/
+
+# File tạm của Office (Excel / Word đang mở), hệ điều hành, trình soạn thảo
+~$*
+.~lock.*
+.DS_Store
+Thumbs.db
+.idea/
+*.swp
+
+# Log
+*.log
+npm-debug.log*
